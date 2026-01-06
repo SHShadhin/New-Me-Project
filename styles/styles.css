@@ -1,0 +1,51 @@
+/* fonts */
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* shared styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* banner styles */
+header {
+  background-image: url("../images/banner/banner3.png");
+}
+.banner {
+  margin: 0 auto;
+  height: 808px;
+}
+.banner .banner-content {
+  text-align: right;
+}
+.banner .banner-content h2 {
+  font-size: 65px;
+  font-weight: bold;
+  color: white;
+  padding-top: 216px;
+  margin-bottom: 24px;
+}
+.banner .banner-content p {
+  font-size: 16px;
+  color: white;
+  line-height: 28px;
+  margin-bottom: 32px;
+}
+.banner-content .btn {
+  color: #005fac;
+  background-color: white;
+  font-size: 20px;
+  padding: 20px 25px;
+  border-radius: 5px;
+  border: none;
+}
