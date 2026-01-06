@@ -49,3 +49,33 @@ header {
   border-radius: 5px;
   border: none;
 }
+
+/* failure section styles */
+#failure {
+    margin-top: 130px;
+}
+.failure-container {
+    display: flex;
+    align-items: center;
+    gap: 85px;
+}
+.failure-container h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.failure-container p {
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #444343;
+    line-height: 26px;
+}
+.failure-container ul > li {
+    list-style: none;
+    color: #444343;
+    line-height: 36px;
+}
+
+ul > li > i {
+    color: #16D887;
+}
