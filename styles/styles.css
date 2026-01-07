@@ -53,34 +53,33 @@ header {
 
 /* failure section styles */
 #failure {
-    margin-top: 130px;
+  margin-top: 130px;
 }
 .failure-container {
-    display: flex;
-    align-items: center;
-    gap: 85px;
+  display: flex;
+  align-items: center;
+  gap: 85px;
 }
 .failure-container h2 {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 24px;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
 }
 .failure-container p {
-    font-size: 16px;
-    margin-bottom: 16px;
-    color: #444343;
-    line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: #444343;
+  line-height: 26px;
 }
 .failure-container ul > li {
-    list-style: none;
-    color: #444343;
-    line-height: 36px;
+  list-style: none;
+  color: #444343;
+  line-height: 36px;
 }
 
 ul > li > i {
-    color: #16D887;
+  color: #16d887;
 }
-
 
 /* my plan section styles */
 #my-plan {
@@ -112,19 +111,19 @@ ul > li > i {
 .plan-box h3 {
   font-size: 25px;
   font-weight: 500;
-  color:#444343;
+  color: #444343;
 }
 
 /* watch section styles */
 #watch {
   margin-top: 135px;
-  margin-bottom: 130px ;
+  margin-bottom: 130px;
 }
 .watch-content {
-  background-image: linear-gradient(to right, #005FAC , #005fac00) , url("../images/watch.png");
+  background-image: linear-gradient(to right, #005fac, #005fac00),
+    url("../images/watch.png");
   padding: 60px 0 60px 65px;
   border-radius: 8px;
-  
 }
 .watch-content h2 {
   font-size: 40px;
@@ -134,4 +133,53 @@ ul > li > i {
   width: 460px;
 }
 
+/* footer styles */
+#footer {
+  background-color: #151414;
+}
+.footer-container {
+  padding: 130px 0;
+  display: flex;
+  gap: 330px;
+  color: white;
+}
+.footer-content {
+  width: 500px;
+}
+.footer-container .footer-content .title {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  line-height: 26px;
+}
+.footer-container .footer-content .description {
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.footer-container .footer-content p {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.footer-content .img img {
+  margin-top: 16px;
+  margin-right: 10px;
+}
 
+.footer-form h3 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.footer-form input[type="text"] {
+  background-color: #151414;
+  font-size: 18px;
+  border: 2px solid white;
+  padding: 20px 158px 20px 20px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.btn-2 {
+  background-color: #005fac;
+  color: white;
+}
